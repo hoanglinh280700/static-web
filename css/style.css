@@ -1,101 +1,83 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    color: #666;
+.nav-link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-link:hover {
+    color: #e74c3c;
 }
 
 
-/* Header/logo tiêu đề */
-
-header {
-    padding: 5px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    height: 120px;
-}
-
-
-/* Tăng kích thước font chữ cho header */
-
-header h1 {
-    font-size: 40px;
-}
-
-header h1,
-h2,
-h3 {
-    color: white;
-}
-
-section {
-    padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-}
-
-li {
+.icon {
     float: left;
+    height: 100%;
+    width: 40px;
 }
-
-li a,
-.dropbtn {
-    display: inline-block;
-    color: #666;
+.text-header {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.text {
+    font-size: 14px;
+}
+.text-hd {
     text-align: center;
-    padding: 14px 16px;
+    margin-left: -50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px
+}
+
+.sanpham-title p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline;
+}
+.sanpham-title {
+    display: inline;
+    padding: 5px 0;
+    border-bottom: 2px solid rgba(206, 20, 20, 0.5)
+}
+.sp-hover{
+    transition: .3s;
+}
+.sp-hover:hover {
+    transform: translatey(-12px);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.sp-hover h2 {
+    font-weight: 200;
+
+}
+.sp-hover p {
+    color: red;
+}
+
+/* Tin tức */
+.title-tintuc a {
     text-decoration: none;
+    color: black;
 }
-
-li a:hover:not(.active),
-.dropdown:hover .dropbtn {
-    color: white;
-    background-color: #4CAF50;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #666;
-    padding: 12px 16px;
+.title-tintuc a:hover {
     text-decoration: none;
-    display: block;
-    text-align: left;
+    color: #e74c3c;
 }
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
+/* footer */
+.footer {
+    background: #2d3436;
+    width: 100%;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.ds {
+    list-style: none;
 }
-
-
-/* Landing page */
-
-.hideable-section {
-    display: none;
+.ds li a {
+    font-size: 18px;
+    text-decoration: none;
+    color:  #ecf0f1;
 }
-
-.hideable-section:first-of-type {
-    display: block;
+.ds li a:hover {
+    text-decoration: none;
+    color: #e74c3c
 }
