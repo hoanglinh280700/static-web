@@ -3,4 +3,5 @@
 ---
 Tên website: Web Shop88  
 Được viết bằng ngôn ngữ: html, css, js  
-Hình ảnh của trang web [Imgur](https://imgur.com/QWdSEa0)
+Hình ảnh của website
+![image](https://drive.google.com/uc?export=view&id=1TyXsbw7gM4o8PXr_kYOiGrFvpWXbFYI7)
